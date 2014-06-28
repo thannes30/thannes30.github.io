@@ -1,0 +1,219 @@
+html {
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  font-family: 'futura', Helvetica, Arial, sans-serif;
+  color: #313131;
+  font-size: 62.5%;
+}
+
+/*.project{
+  width: 28%;
+  height: 24%;
+  margin: 3% 2% 3% 2%;
+  display: block;
+  float:left;
+  position:relative;
+  opacity: 1;
+}
+
+.project:hover{
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.info{
+  background-color:black;
+  display: block;
+  float:left;
+  position:absolute;
+  top:0px;
+  height: 89%;
+  width: 100%;
+}*/
+/*.info:hover{
+  z-index:1;
+}*/
+
+.project{
+  width: 28%;
+  height: 24%;
+  margin: 3% 2% 3% 2%;
+  display: block;
+  float:left;
+  position:relative;
+  opacity: 1;
+}
+
+
+
+.info{
+  background-color:black;
+  text-align: center;
+  display: block;
+  color:lightgrey;
+  float:left;
+  position:absolute;
+  top:0px;
+  height: 89%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease;
+}
+
+.project:hover .info{
+  opacity: 1;
+}
+
+
+
+
+
+br { display: block; line-height: 2.2em; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+input, textarea {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+#stickynav {
+  display: block;
+  z-index: 10;
+  margin-top: -60px;
+  margin-left: 60%;
+}
+
+#stickynav #nav { position: fixed; z-index: 9999; }
+#stickynav #nav li { display: inline; }
+#stickynav #nav li a {
+  display: block;
+  color:black;
+  float: left;
+  margin-right: 8px;
+  font-size: 1.5em;
+  padding: 5px 7px;
+/*  background: black;
+*/}
+#stickynav #nav li a:hover {
+  text-decoration: none;
+/*  background: grey;
+*/border-bottom: solid 2px grey;
+}
+
+#stickynav #nav li a.nav-active {
+  color: black;
+}
+
+
+.section {
+  padding-top: 90px;
+  height:650px;
+}
+
+h1 {
+  font-family: 'futura', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  letter-spacing: -0.05em;
+  margin-bottom: 20px;
+  padding: .1em 0;
+  color: #444;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
+footer{
+  color:grey;
+  text-decoration:none;
+}
+
+
+p {
+  display: block;
+  font-size: 1.35em;
+  line-height: 1.5em;
+  margin-bottom: 22px;
+}
+
+a { color: #5a9352; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.contact {
+  display: block;
+  font-size: 1.5em;
+  color: #555;
+  font-family: Arial, Tahoma, sans-serif;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+}
+
+.formtxt {
+  display: block;
+  width: 550px;
+  height: 180px;
+  font-family: Arial, Tahoma, sans-serif;
+  color: #666;
+  padding: 5px 8px;
+  font-size: 1.6em;
+  line-height: 1.4em;
+}
+
+/** page structure **/
+#w {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#content {
+  display: block;
+  width: 100%;
+  background: #fff;
+  padding: 25px 20px;
+  padding-bottom: 35px;
+}
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+
+.clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
