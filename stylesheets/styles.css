@@ -19,36 +19,6 @@ body {
   font-size: 62.5%;
 }
 
-/*.project{
-  width: 28%;
-  height: 24%;
-  margin: 3% 2% 3% 2%;
-  display: block;
-  float:left;
-  position:relative;
-  opacity: 1;
-}
-
-.project:hover{
-  opacity: 0;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-}
-
-.info{
-  background-color:black;
-  display: block;
-  float:left;
-  position:absolute;
-  top:0px;
-  height: 89%;
-  width: 100%;
-}*/
-/*.info:hover{
-  z-index:1;
-}*/
-
 .project{
   width: 250px;
   height: 150px;
