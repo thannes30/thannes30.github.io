@@ -27,7 +27,9 @@ body {
   border-radius: 50%;
   font-size:6em;
   border: solid 3px lightgray;
-  transition: background-color 0.5s ease;
+  -moz-box-shadow:    0px 0px 2px 2px grey;
+  -webkit-box-shadow: 0px 0px 2px 2px grey;
+  box-shadow:         0px 0px 2px 2px grey;
 }
 
 #logo-text{
@@ -46,9 +48,10 @@ body {
 }
 
 .project{
-  width: 300px;
+  width: 280px;
   height: 200px;
-  margin: 0 2% 0 2%;
+  margin-left:1.5%;
+  padding: 0 10px 0 10px;
   display: block;
   float:left;
   position:relative;
@@ -77,6 +80,9 @@ body {
 
 .project:hover .info{
   opacity: .8;
+  -moz-box-shadow:    0px 0px 10px 5px grey;
+  -webkit-box-shadow: 0px 0px 10px 5px grey;
+  box-shadow:         0px 0px 10px 5px grey;
 }
 
 br { display: block; line-height: 2.2em; }
@@ -204,7 +210,7 @@ a:hover { text-decoration: underline; }
 
 .formtxt {
   display: block;
-  width: 300px;
+  width: 60%;
   height: 180px;
   font-family: Arial, Tahoma, sans-serif;
   color: #666;
@@ -233,3 +239,44 @@ a:hover { text-decoration: underline; }
 .clearfix { display: inline-block; }
 .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+.large{
+  font-size:3em;
+  text-decoration: bold;
+  color: #181F4A;
+  opacity:.8;
+}
+
+.medium {
+  font-size:2em;
+  text-decoration: bold;
+  color: #181F4A;
+  opacity:.8;
+}
+
+.text-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section p{
+  line-height: 350%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.text-container li{
+  font-size: 1.5em;
+}
+
+.timeline {
+  width: 50%;
+  float:left;
+/*  margin: 0 auto;
+*/}
+
+.about-text {
+  width: 40%;
+  float:right;
+  line-height:100%;
+}
