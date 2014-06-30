@@ -191,8 +191,8 @@ footer{
 p {
   display: block;
   font-size: 1.35em;
-  line-height: 1.5em;
-  margin-bottom: 22px;
+/*  line-height: 1.5em;
+*/  margin-bottom: 22px;
   color:#181F4A;
 }
 
@@ -270,6 +270,7 @@ a:hover { text-decoration: underline; }
 }
 
 .timeline {
+  padding-top:5%;
   width: 50%;
   float:left;
 /*  margin: 0 auto;
@@ -278,5 +279,5 @@ a:hover { text-decoration: underline; }
 .about-text {
   width: 40%;
   float:right;
-  line-height:100%;
+  line-height:50%;
 }
