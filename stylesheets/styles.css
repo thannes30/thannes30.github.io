@@ -13,8 +13,6 @@ html {
   box-sizing: border-box;
 }
 body {
-/*background-image: url('../images/nice_snow.png');
-  background-repeat: repeat-y;*/
   font-family: 'futura', Helvetica, Arial, sans-serif;
   color: #313131;
   font-size: 62.5%;
@@ -125,7 +123,7 @@ table { border-collapse: collapse; border-spacing: 0; }
   color:black;
   float: left;
   margin-right: 8px;
-  font-size: 1.5em;
+  font-size: 1.7em;
   padding: 5px 7px;
   color: #696969;
 }
@@ -222,7 +220,8 @@ a:hover { text-decoration: underline; }
 }
 
 #w {
-  display: block;
+/*  background-image: url('../images/greyzz.png');
+*/  display: block;
   width: 75%;
   margin: 0 auto;
   padding-top: 30px;
