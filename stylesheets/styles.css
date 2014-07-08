@@ -109,8 +109,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 */
 #stickynav {
   display: block;
-/*  z-index: 10;
-*/  margin-top: -100px;
+  z-index: 10;
+  margin-top: -100px;
   margin-left: 60%;
   opacity: .7;
   color: #D3D3D3;
@@ -138,6 +138,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .section {
   padding-top: 90px;
   height:650px;
+  margin: 0 auto;
 }
 
 .social-container {

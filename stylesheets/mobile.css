@@ -1,0 +1,23 @@
+
+@media (max-width: 785px) {
+
+  body {
+    background-color: lightgray;
+  }
+
+  #w{
+    width:95%;
+  }
+
+  .project{
+  width: 75%;
+  margin-left:1.5%;
+  padding: 0 10px 0 10px;
+  display: block;
+  float:left;
+  position:relative;
+  opacity: 1;
+}
+
+
+} /*end media styles*/
