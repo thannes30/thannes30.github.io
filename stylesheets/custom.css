@@ -11,9 +11,17 @@ p{
 }
 
 section{
-  min-height:900px;
+  min-height:850px;
   padding-top:100px;
 }
+
+.button{
+  margin: 10px 5px 0 0;
+}
+
+/*#contact{
+  height:650px;
+}*/
 /*end setup styles*/
 
 
@@ -47,8 +55,7 @@ h2{
 }
 
 .nav{
-  /*background: none;*/
-  background-color: white;
+  background-color:white;
 }
 
 .small{
@@ -170,7 +177,7 @@ h2{
   display: block;
   font-size: 1.5em;
   color: #555;
-  font-family: Arial, Tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
   padding: 4px 6px;
   margin-bottom: 10px;
 }
@@ -180,7 +187,7 @@ h2{
   width: 60%;
   min-width: 242px;
   height: 180px;
-  font-family: Arial, Tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
   color: #666;
   padding: 5px 8px;
   font-size: 1.6em;
@@ -196,7 +203,7 @@ form{
 /*begin footer*/
 .social-container {
   float:right;
-  margin-top:-57px;
+  margin-top:-75px;
 }
 
 .social {
@@ -224,6 +231,7 @@ form{
 footer{
   color:grey;
   text-decoration:none;
-  /*margin-top:-50px;*/
+  /*margin-top:150px;*/
+  margin:150px 0 -50px 0;
 }
 /*end footer*/
