@@ -1,26 +1,23 @@
-// $(function(){
-//   $("#nav a").click(function(e){
-//     e.preventDefault();
-//     $('html,body').scrollTo(this.hash,this.hash);
+
+//active nav
+// $(document).ready(function () {
+//   $('ul.nav > li').click(function (e) {
+//       // e.preventDefault();
+//       $('ul.nav > li').removeClass('active');
+//       $(this).addClass('active');
 //   });
 // });
 
 
-//active nav
-$(document).ready(function () {
-        $('ul.nav > li').click(function (e) {
-            // e.preventDefault();
-            $('ul.nav > li').removeClass('active');
-            $(this).addClass('active');
-        });
-    });
 
-// $('.navbar-header li').click(function(e) {
-//     $('.navbar-header li.active').removeClass('active');
-//     var $this = $(this);
-//     if (!$this.hasClass('active')) {
-//         $this.addClass('active');
-//     }
-//     e.preventDefault();
-// });
-
+//ScrollIt code
+$(function() {
+$.scrollIt({
+  upKey: 38,             // key code to navigate to the next section
+  downKey: 40,           // key code to navigate to the previous section
+  easing: 'linear',      // the easing function for animation
+  scrollTime: 700,       // how long (in ms) the animation takes
+  activeClass: 'active', // class given to the active nav element
+  onPageChange: null,    // function(pageIndex) that is called when page is changed
+});
+});
