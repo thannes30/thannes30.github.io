@@ -119,6 +119,13 @@ a.active{
   font-size:2em;
   line-height: 250%;
 }
+
+.year {
+  /*float:left;*/
+  font-size:3.5em;
+  text-decoration: bold;
+  color: #181F4A;
+}
 /*end about section*/
 
 
