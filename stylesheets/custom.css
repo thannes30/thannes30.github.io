@@ -55,7 +55,7 @@ h2{
 }
 
 .nav{
-  background-color:white;
+  background-color: white !important;
 }
 
 .small{
@@ -87,8 +87,9 @@ h2{
 }
 
 a.active{
-  background-color:lightgray;
-  color:white;
+  background-color:darkgray;
+  border-bottom: 2px solid #181F4A;
+  color:white !important;
 }
 
 
