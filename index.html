@@ -8,14 +8,14 @@
      <link rel="icon"
       type="image/png"
       href="images/favicon.png">
-    <link rel="stylesheet" href="stylesheets/bootstrap-lightbox.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.lightbox.css" media="screen">
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
     <link href="stylesheets/custom.css" rel="stylesheet">
     <script type="text/javascript" src="javascripts/jquery.js"></script>
     <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
     <script type='text/javascript' src='javascripts/scrollIt.min.js'></script>
     <script type="text/javascript" src="javascripts/app.js"></script>
-    <script src="javascripts/bootstrap-lightbox.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.lightbox.js"></script>
   </head>
 
   <body>
@@ -92,23 +92,22 @@
       <section id="work" data-scroll-index='2'>
         <div class="col-lg-14">
         <h2>work</h2>
-            <div class="projects-container" class="content">
-              <div class="project">
-                <img src="images/findthat.png" alt="findthat">
-                <a href="http://findthat.herokuapp.com" target="_blank">
-                  <div class="info">
-                  <h2>Findthat</h2>
-                  <ul>
-                    <li>Rails 4</li>
-                    <li>HTML5 Geolocation API</li>
-                    <li>Foursquare API</li>
-                    <li>Google Maps API</li>
-                    <li>Bootstrap</li>
-                  </ul>
-                </div>
+            <div class="projects-container content">
+
+              <div class="project thumbnails" data-toggle="lightbox">
+                <a href="images/findthat-lg.png" title="finthat" data-title-link="http://findthat.herokuapp.com" data-description="" class="thumbnail">
+                  <img src="images/findthat.png" alt="findthat">
                 </a>
               </div>
-              <div class="project">
+
+              <div class="project thumbnails" data-toggle="lightbox">
+                <a href="images/discgolf-lg.png" title="Discgolf Scorecard" data-title-link="http://discgolf-scorecard.herokuapp.com" data-description="" class="thumbnail">
+                  <img src="images/discgolf.png" alt="findthat">
+                </a>
+              </div>
+
+
+             <!--  <div class="project">
                 <img src="images/discgolf.png" alt="Discgolf Scorecard">
                 <a href="http://discgolf-scorecard.herokuapp.com" target="_blank">
                 <div class="info">
@@ -121,8 +120,15 @@
                     </ul>
                 </div>
                 </a>
+              </div> -->
+
+              <div class="project thumbnails" data-toggle="lightbox">
+                <a href="images/trailmap-lg.png" title="trailmap" data-title-link="http://trail-map.herokuapp.com" data-description="" class="thumbnail">
+                  <img src="images/trailmap.png" alt="findthat">
+                </a>
               </div>
-              <div class="project">
+
+             <!--  <div class="project">
                 <img src="images/trailmap.png" alt="TrailMap">
                 <a href="http://trail-map.herokuapp.com"  target="_blank">
                 <div class="info">
@@ -136,8 +142,15 @@
                     </ul>
                 </div>
                 </a>
+              </div> -->
+
+              <div class="project thumbnails" data-toggle="lightbox">
+                <a href="images/instasearch-lg" title="Instasearch" data-title-link="http://instagram-search.herokuapp.com" data-description="" class="thumbnail">
+                  <img src="images/instasearch.png" alt="findthat">
+                </a>
               </div>
-              <div class="project">
+
+              <!-- <div class="project">
                 <img src="images/instasearch.png" alt="TrailMap">
                 <a href="http://instagram-search.herokuapp.com/"  target="_blank">
                 <div class="info">
@@ -149,22 +162,19 @@
                     </ul>
                 </div>
                 </a>
-              </div>
+              </div> -->
+
               <div class="project">
                 <img src="images/future.png" alt="TrailMap">
-                <a href=""  target="_blank">
                   <div class="info">
                   <h2>Coming Soon...</h2>
               </div>
-              </a>
             </div>
              <div class="project">
                 <img src="images/future.png" alt="TrailMap">
-                <a href=""  target="_blank">
                   <div class="info">
                   <h2>Coming Soon...</h2>
               </div>
-              </a>
             </div>
           </div>
 
