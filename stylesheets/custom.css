@@ -95,6 +95,7 @@ a.active{
 
 /*hr lines*/
 .divide {
+  margin-top:200px;
   border: 0;
   height: 2px;
   background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(3,7,34,0.75), rgba(0,0,0,0));
