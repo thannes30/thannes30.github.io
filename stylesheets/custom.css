@@ -1,5 +1,6 @@
 /*setup styles*/
 body{
+  background-color:#FEF9F4;
   padding-top: 80px;
   font-family: futura;
 }
@@ -19,16 +20,10 @@ section{
   margin: 10px 5px 0 0;
 }
 
-/*#contact{
-  height:650px;
-}*/
-/*end setup styles*/
-
-
 /*begin logo*/
 #logo{
   font-family: futura;
-  padding: 10px 0px 0 -0px;
+  padding: 10px 0 0 0;
   width:100px;
   height: 100px;
   background-color: #181F4A;
@@ -45,6 +40,14 @@ section{
 }
 /*end logo*/
 
+.navigation ul{
+  background-color: #FEF9F4;
+}
+
+.navigation{
+  margin-top:-52px;
+}
+
 h2{
   text-align: center;
   margin-bottom:50px;
@@ -55,7 +58,7 @@ h2{
 }
 
 .nav{
-  background-color: white !important;
+  background-color: #FEF9F4;;
 }
 
 .small{
@@ -83,7 +86,8 @@ h2{
   width:80%;
   margin: 0 auto;
   text-align: center;
-  margin-top:-30px;
+  margin-top:-50px;
+  margin-bottom:30px;
 }
 
 a.active{
@@ -187,6 +191,10 @@ a.active{
 
 
 /*begin contact section*/
+#contact{
+  height:600px;
+}
+
 .contact {
   display: block;
   font-size: 1.5em;
@@ -249,3 +257,40 @@ footer{
   margin:150px 0 -50px 0;
 }
 /*end footer*/
+
+
+/* jquery lightbox NO PLUGIN */
+#wrapper {
+    margin:0 auto;
+    text-align:left;
+    padding:25px;
+}
+
+#lightbox p {
+    text-align:right;
+    color:black;
+    margin-right:20px;
+    font-size:12px;
+}
+
+#lightbox {
+    position:fixed;
+    top:20%;
+    left:0;
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+}
+
+/*.findthat-info{
+  width:100%;
+  height:200px;
+}
+*/
