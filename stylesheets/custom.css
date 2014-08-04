@@ -17,7 +17,7 @@ p{
 }
 
 section{
-  min-height:850px;
+  /*min-height:850px;*/
   padding-top:100px;
 }
 
@@ -194,7 +194,11 @@ a.active{
 
 /*begin contact section*/
 .last{
-  height:500px;
+  height:800px !important;
+}
+
+#contact h2{
+  margin-top:50px;
 }
 
 .contact {
