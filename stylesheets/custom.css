@@ -7,6 +7,11 @@ body{
 ul{
   list-style:none;
 }
+.quote{
+  font-size: 1.5em;
+  color: gray;
+  font-family: 'Monaco', 'Helvetica';
+}
 p{
   color:#181F4A;
 }
