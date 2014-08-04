@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
         $('body').append(lightbox);
     };
 
-     $("#lightbox").on('click', function(){
+     $("#content").on('click', function(){
        $('#lightbox').hide();
      });
 
