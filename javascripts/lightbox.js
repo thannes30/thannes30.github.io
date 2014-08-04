@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+$(function($){
 
   $('.navigation').animate({'margin-top': '0px'}, 1000);
 
