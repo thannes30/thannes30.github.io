@@ -123,21 +123,17 @@ a.active{
   float:left;
 }
 
-#close{
-  float:right;
-  color:grey;
-}
-
 .about-text {
+  padding-top:9%;
   width: 40%;
   float:right;
   font-size:2em;
-  line-height: 250%;
+  line-height: 200%;
 }
 
 .year {
   /*float:left;*/
-  font-size:3.5em;
+  font-size:3em;
   text-decoration: bold;
   color: #181F4A;
 }
@@ -181,10 +177,6 @@ a.active{
   -webkit-transition: opacity .7s ease;
 }
 
-.about-text{
-  padding-top:30px;
-}
-
 .info ul{
   color: white;
   font-size: 1em;
@@ -201,8 +193,8 @@ a.active{
 
 
 /*begin contact section*/
-#contact{
-  height:600px;
+.last{
+  height:500px;
 }
 
 .contact {
@@ -217,7 +209,7 @@ a.active{
 .formtxt {
   display: block;
   width: 60%;
-  min-width: 242px;
+  min-width: 245px;
   height: 180px;
   font-family: Tahoma, sans-serif;
   color: #666;
