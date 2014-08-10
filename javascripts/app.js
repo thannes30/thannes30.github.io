@@ -9,3 +9,8 @@ $.scrollIt({
   onPageChange: null,    // function(pageIndex) that is called when page is changed
 });
 });
+
+
+// $(".findthat").on('click', function(){
+//   $(".info").fadeIn
+// })
