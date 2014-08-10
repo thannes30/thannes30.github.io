@@ -114,7 +114,6 @@ a.active{
 }
 /*end hr lines*/
 
-
 /* begin about section*/
 .timeline {
   list-style: none;
@@ -191,7 +190,7 @@ a.active{
 
 /*begin contact section*/
 .last{
-  height:840px !important;
+  height:800px !important;
 }
 
 #contact h2{

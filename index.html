@@ -18,18 +18,30 @@
 
     <!-- google analytics -->
     <script>
-    // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    // ga('create', 'UA-53389213-1', 'auto');
-    // ga('send', 'pageview');
+    ga('create', 'UA-53389213-1', 'auto');
+    ga('send', 'pageview');
+    // end google analytics
+
+    // start google analytics event tracking
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-53389213-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    //end google analytics event tracking
 
     // forward to timhannes.com
     window.location = "http://timhannes.com";
     </script>
-    <!-- end google analytics -->
   </head>
 
   <body>
@@ -111,7 +123,7 @@
                 <ul>
                   <div class="project">
                     <li>
-                      <a href="images/findthat-lg.png" class="lightbox_trigger"><img src="images/findthat.png" alt="findthat" onClick="_gaq.push(['_trackEvent', 'Open', 'findthat', 'Viewed findthat in lightbox']);"></a>
+                      <a href="images/findthat-lg.png" class="lightbox_trigger" onClick="_gaq.push(['_trackEvent', 'Open', 'findthat', 'Viewed findthat in lightbox']);"><img src="images/findthat.png" alt="findthat"></a>
                     </li>
                      <div class="info">
                       <h2>findthat</h2>
@@ -128,7 +140,7 @@
                   </div>
                   <div class="project">
                     <li>
-                      <a href="images/discgolf-lg.png" class="lightbox_trigger"><img src="images/discgolf.png" alt="discgolf" onClick="_gaq.push(['_trackEvent', 'Open', 'discgolf', 'viewed discgolf in lightbox']);"></a>
+                      <a href="images/discgolf-lg.png" class="lightbox_trigger" onClick="_gaq.push(['_trackEvent', 'Open', 'discgolf', 'viewed discgolf in lightbox']);"><img src="images/discgolf.png" alt="discgolf"></a>
                     </li>
                    <!--   <div class="info">
                       <h2>Disc Golf Scorecard</h2>
@@ -143,7 +155,7 @@
                   </div>
                   <div class="project">
                     <li>
-                      <a href="images/trailmap-lg.png" class="lightbox_trigger"><img src="images/trailmap.png" onClick="_gaq.push(['_trackEvent', 'Open', 'trailmap', 'viewed trailmap in lightbox']);"></a>
+                      <a href="images/trailmap-lg.png" class="lightbox_trigger" onClick="_gaq.push(['_trackEvent', 'Open', 'trailmap', 'viewed trailmap in lightbox']);"><img src="images/trailmap.png"></a>
                     </li>
                     <!-- <div class="info">
                       <h2>Trail Map</h2>
@@ -158,7 +170,7 @@
                   </div>
                   <div class="project">
                     <li>
-                      <a href="images/instasearch-lg" class="lightbox_trigger"><img src="images/instasearch.png" onClick="_gaq.push(['_trackEvent', 'Open', 'instasearch', 'viewed instasearch in lightbox']);"></a>
+                      <a href="images/instasearch-lg" class="lightbox_trigger" onClick="_gaq.push(['_trackEvent', 'Open', 'instasearch', 'viewed instasearch in lightbox']);"><img src="images/instasearch.png"></a>
                     </li>
                     <!-- <div class="info">
                     <h2>Instasearch</h2>
@@ -171,7 +183,7 @@
                   </div>
                     <div class="project">
                     <li>
-                      <a href="images/snack-lg.png" class="lightbox_trigger"><img src="images/snack.png" onClick="_gaq.push(['_trackEvent', 'Open', 'snack', 'viewed snack in lightbox']);"></a>
+                      <a href="images/snack-lg.png" class="lightbox_trigger" onClick="_gaq.push(['_trackEvent', 'Open', 'snack', 'viewed snack in lightbox']);"><img src="images/snack.png"></a>
                     </li>
                     <!-- <div class="info">
                     <h2>Instasearch</h2>
@@ -184,7 +196,7 @@
                   </div>
                     <div class="project">
                     <li>
-                      <a href="images/mobile-lg.png" class="lightbox_trigger"><img src="images/mobile.png" onClick="_gaq.push(['_trackEvent', 'Open', 'mobile', 'viewed mobile in lightbox']);"></a>
+                      <a href="images/mobile-lg.png" class="lightbox_trigger" onClick="_gaq.push(['_trackEvent', 'Open', 'mobile', 'viewed mobile in lightbox']);"><img src="images/mobile.png"></a>
                     </li>
                     <!-- <div class="info">
                     <h2>Instasearch</h2>
@@ -220,7 +232,7 @@
           </form>
 
             <footer>
-              <p>&#169 Tim Hannes 2014</p>
+              <p class="copyright">&#169 Tim Hannes 2014</p>
               <div class="social-container">
                 <div class="social">
                   <a href="https://www.linkedin.com/in/timhannes"  target="_blank"><img src="images/linkedIn.png" alt="Connect with me on LinkedIn" onClick="_gaq.push(['_trackEvent', 'Open', 'LinkedIn', 'Viewed my linkedin through social media icon']);"></a>
