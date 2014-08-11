@@ -19,7 +19,7 @@ $(function($){
             '<div id="content">'+
               '<img src="' +image_href+ '"/>'+
               '<div id="overlay">'+
-                '<p id="infopar">"'+projectInfoPar+'"</p>'+
+                '<p id="infopar">'+projectInfoPar+'</p>'+
               '</div>'+
             '</div>'+
           '</div>';
