@@ -7,19 +7,21 @@ $(function($){
     // var image_href = $(this).attr("href");
     var image_href = $(this).find("a").attr("href");
     // var projectInfoPar = "<p>Fun project</p>";
-    var projectInfoPar = $(this).find(".info").html();
+    var projectInfo = $(this).find(".info").html();
     console.log($(this));
-    console.log(projectInfoPar);
+    console.log(projectInfo);
     if ($("#lightbox").length > 0){
       $("#content").html('<img src="' +image_href+ '"/>');
       $("#lightbox").show();
     } else {
       var lightbox =
          '<div id="lightbox">'+
-            '<div id="content">'+
-              '<img src="' +image_href+ '"/>'+
-              '<div id="overlay">'+
-                '<p id="infopar">'+projectInfoPar+'</p>'+
+            '<div id="lightbox-wrapper">'+
+              '<div id="content">'+
+                '<img src="' +image_href+ '"/>'+
+                '<div id="overlay">'+
+                  '<p id="infopar">"' +projectInfo+ '"</p>'+
+                '</div>'+
               '</div>'+
             '</div>'+
           '</div>';
