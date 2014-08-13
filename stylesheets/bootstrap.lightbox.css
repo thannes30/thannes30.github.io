@@ -1,4 +1,4 @@
-#lightboxOverlay {
+/*#lightboxOverlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,7 +7,7 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
   opacity: 0.85;
   display: none;
-}
+}*/
 
 #lightbox {
   position: absolute;
@@ -29,23 +29,6 @@
 }
 #lightbox a img {
   border: none;
-}
-#lightbox h4 {
-  margin-top: 0;
-  line-height: 1em;
-}
-#lightbox button.close {
-  font-size: 2em;
-  outline: none;
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  opacity: 0.6;
-  color: white;
-}
-#lightbox button.close:hover {
-  color: #eeaaaa;
-  opacity: 1;
 }
 
 .lb-outerContainer {
