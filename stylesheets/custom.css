@@ -20,6 +20,10 @@ p{
   display:inline-flex;
 }
 
+#overlay li{
+  padding: 0,0,0,5px !important;
+}
+
 section{
   /*min-height:850px;*/
   padding-top:100px;
