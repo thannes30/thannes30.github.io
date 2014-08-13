@@ -2,7 +2,8 @@ $(function($){
 
   $('.navigation').animate({'margin-top': '0px'}, 1000);
 
-  $(".project").click(function(e){
+  // $(".project").click(function(e){
+    $(".project").on('click', function(e){
     e.preventDefault();
     // var image_href = $(this).attr("href");
     var image_href = $(this).find("a").attr("href");
