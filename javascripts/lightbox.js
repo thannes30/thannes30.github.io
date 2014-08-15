@@ -8,7 +8,7 @@ $(function($){
     var image_href = $(this).find("a").attr("href");
     var projectInfo = $(this).find(".info").html();
     // console.log($(this));
-    // console.log(projectInfo);
+    console.log(projectInfo);
     if ($("#lightbox").length > 0){
       $("#content").html('<img src="' +image_href+ '"/>');
       $("#lightbox").show();
@@ -25,7 +25,7 @@ $(function($){
             '</div>'+
           '</div>';
         $('body').append(lightbox);
-        console.log(lightbox);
+        console.log(image_href);
     };
 
     // $('.findthat').on('click', function(){
