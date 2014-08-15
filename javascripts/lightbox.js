@@ -3,14 +3,12 @@ $(function($){
   $('.navigation').animate({'margin-top': '0px'}, 1000);
 
   // $(".project").click(function(e){
-    $(".project").on('click', function(e){
+    $(".projects-container").on('click', '.project', function(e){
     e.preventDefault();
-    // var image_href = $(this).attr("href");
     var image_href = $(this).find("a").attr("href");
-    // var projectInfoPar = "<p>Fun project</p>";
     var projectInfo = $(this).find(".info").html();
-    console.log($(this));
-    console.log(projectInfo);
+    // console.log($(this));
+    // console.log(projectInfo);
     if ($("#lightbox").length > 0){
       $("#content").html('<img src="' +image_href+ '"/>');
       $("#lightbox").show();
@@ -27,6 +25,7 @@ $(function($){
             '</div>'+
           '</div>';
         $('body').append(lightbox);
+        console.log(lightbox);
     };
 
     // $('.findthat').on('click', function(){
