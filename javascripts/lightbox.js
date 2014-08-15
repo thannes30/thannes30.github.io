@@ -1,16 +1,18 @@
 $(function($){
+    $('.navigation').animate({'margin-top': '0px'}, 1000);
 
-  $('.navigation').animate({'margin-top': '0px'}, 1000);
-
-  // $(".project").click(function(e){
     $(".projects-container").on('click', '.project', function(e){
     e.preventDefault();
     var image_href = $(this).find("a").attr("href");
     var projectInfo = $(this).find(".info").html();
     // console.log($(this));
-    console.log(projectInfo);
+    // console.log(projectInfo);
     if ($("#lightbox").length > 0){
-      $("#content").html('<img src="' +image_href+ '"/>');
+      $("#content").html('<img src="'+image_href+'"/>'
+                          +'<div id="overlay">'
+                          +'<p id="infopar">'
+                          +projectInfo+'</p>'+
+                          '</div>');
       $("#lightbox").show();
     } else {
       var lightbox =
@@ -25,22 +27,7 @@ $(function($){
             '</div>'+
           '</div>';
         $('body').append(lightbox);
-        console.log(image_href);
     };
-
-    // $('.findthat').on('click', function(){
-    //   var overlay = document.createElement("div");
-    //   var infoPar = document.createTextNode("Info paragraph about specific project goes here.");
-    //   overlay.appendChild(infoPar);
-    //   img = document.getElementbyid("content");
-    //   img.append(overlay);
-    // });
-
-    // infoPar.style.opacity=0;
-    // setTimeout(function(){
-    //   infoPar.style.opacity=1;
-    // }, 1000);
-
 
      $("#content").on('click', function(){
        $('#lightbox').hide();
