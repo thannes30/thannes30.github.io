@@ -21,10 +21,7 @@ p{
   color:#FEF9F4;
   display:inline-flex;
   text-align: center;
-}
-
-#overlay li{
-  padding: 0,0,0,5px !important;
+  margin-top:-2%;
 }
 
 section{
